@@ -18,17 +18,7 @@ pip install opencv-python
 pip install numpy
 
 
-## 資料準備方式
-
-請將主辦方提供的資料放在例如：
-
-dataset/
-├─ train_images/
-├─ train_labels/
-└─ test_images/
-
 程式會自動：
-
 - 檢查影像/標註檔是否匹配  
 - 補齊缺漏的標註（空白 txt）  
 - 建立 YOLO 格式的 train/val 分割資料夾  

@@ -6,27 +6,11 @@
 
 ---
 
-## 專案結構
-
-├─ train_task2.py # 模型訓練主程式
-├─ test_task2.py # 推論主程式（產出 submission 格式 txt）
-├─ util_task2.py # 資料處理、標註檢查、資料集切分與資料夾建立
-├─ hyp_task2.yaml # 自訂 YOLO 訓練超參數檔
-├─ datasets
-│ ├─ train/images
-│ ├─ train/labels
-│ ├─ val/images
-│ ├─ val/labels
-│ └─ test_images/
-└─ runs/ # YOLO 訓練結果（自動生成）
 
 ## 安裝環境
 
 ### Python 版本
 Python 3.10
-
-shell
-複製程式碼
 
 ### 必要套件
 pip install ultralytics
@@ -95,7 +79,7 @@ data augmentation
 IoU / NMS / box loss 等 YOLO 超參數
 此檔案由 util_task2.py 自動生成，不需手動建立。
 
-📎 使用的模型與外部資源
+使用的模型與外部資源
 Ultralytics YOLO
 https://github.com/ultralytics/ultralytics
 
